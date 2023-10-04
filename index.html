@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+            },
+            colors: {
+              primary: "#44c3eb",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="font-poppins bg-black text-white min-h-screen select-none">
+    <!-- Header  -->
+    <header class="flex items-center justify-between px-12 pt-4">
+      <div class="text-primary text-5xl">P.</div>
+      <div class="flex gap-6">
+        <div class="text-2xl font-poppins cursor-pointer">Home</div>
+        <div class="text-2xl font-poppins cursor-pointer">Trending</div>
+        <div class="text-2xl font-poppins cursor-pointer">Deals</div>
+      </div>
+      <div class="flex items-center gap-6">
+        <div class="text-2xl font-poppins cursor-pointer">Log in</div>
+        <div
+          class="flex justify-center items-center bg-primary py-2 px-4 cursor-pointer"
+        >
+          Sign Up
+        </div>
+      </div>
+    </header>
+
+    <!-- Landing  -->
+    <div class="flex justify-center h-full items-center mt-[60px]">
+      <div class="w-[90%] bg-white flex justify-between">
+        <div class="w-1/2 flex flex-col gap-3 p-[3rem] justify-center">
+          <div
+            class="text-primary text-opacity-80 text-3xl font-semibold font-poppins uppercase"
+          >
+            Summer Collection
+          </div>
+          <div
+            class="text-black text-[64px] font-light font-poppins tracking-[6.40px] whitespace-nowrap"
+          >
+            When you are in <br />doubt, <br />
+            wear Denim
+          </div>
+          <div class="flex items-center gap-6">
+            <div
+              class="flex justify-center items-center bg-black py-2 px-4 w-max cursor-pointer"
+            >
+              Buy now
+            </div>
+            <div class="flex gap-2 items-center cursor-pointer">
+              <img src="playIcon.svg" alt="" />
+              <div
+                class="text-primary text-opacity-80 text-2xl font-medium font-poppins"
+              >
+                Watch Video
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img src="landingImg.png" class="w-1/2" alt="" />
+      </div>
+    </div>
+
+    <!-- specials  -->
+
+    <div class="flex w-[80%] justify-between items-center mx-auto mt-[60px]">
+      <div class="flex flex-col gap-4 justify-center items-center">
+        <img class="w-[100px] h-[100px] relative" src="carbon_delivery.svg" />
+        <div
+          class="w-[407px] text-center text-neutral-400 text-2xl font-poppins"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis
+        </div>
+      </div>
+      <div class="flex flex-col gap-4 justify-center items-center">
+        <img class="w-[100px] h-[100px] relative" src="carbon_delivery.svg" />
+        <div
+          class="w-[407px] text-center text-neutral-400 text-2xl font-poppins"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis
+        </div>
+      </div>
+      <div class="flex flex-col gap-4 justify-center items-center">
+        <img class="w-[100px] h-[100px] relative" src="carbon_delivery.svg" />
+        <div
+          class="w-[407px] text-center text-neutral-400 text-2xl font-poppins"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis
+        </div>
+      </div>
+    </div>
+
+    <!-- Trending  -->
+
+    <div class="flex w-[80%] justify-between items-center mx-auto mt-[120px]">
+      <div class="flex flex-col">
+        <div class="w-[405px] text-cyan-300 text-[44px] font-poppins">
+          Tending this <br />week
+        </div>
+        <div
+          class="w-[692px] text-neutral-400 text-3xl font-light font-poppins leading-[55.44px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis, lectus magna fringilla urna,
+          porttitor rhoncus dolor purus non enim
+        </div>
+      </div>
+      <img src="trendingImg.png" class="w-[700px]" />
+    </div>
+
+    <!-- Deals  -->
+
+    <div class="flex w-[80%] justify-between items-center mx-auto mt-[120px]">
+      <img src="dealsImg.png" class="w-[400px]" />
+      <div class="flex flex-col">
+        <div class="text-cyan-300 text-[64px] font-poppins">
+          Great deals on <br />women's wear
+        </div>
+        <div
+          class="w-[692px] text-neutral-400 text-3xl font-light font-poppins leading-[55.44px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis, lectus magna fringilla urna,
+          porttitor rhoncus dolor purus non enim
+        </div>
+      </div>
+    </div>
+
+    <div class="flex w-[80%] justify-between items-center mx-auto mt-[120px]">
+      <div class="flex flex-col gap-4">
+        <div class="text-neutral-200 text-5xl font-poppins">
+          P<span class="text-primary">.</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <img src="map-pin.svg" />
+          <div class="text-white text-2xl font-poppins tracking-[11.76px]">
+            401, Lagos<br />Nigeria
+          </div>
+        </div>
+        <img src="Group 5.svg" alt="" />
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="text-white text-4xl font-medium font-poppins">company</div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Career
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          About Us
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Terms
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Policy
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="text-white text-4xl font-medium font-poppins">Explore</div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          News
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Blogs
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Sitemap
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="text-white text-4xl font-medium font-poppins">Services</div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Perks
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Platinum Card
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Hero Card
+        </div>
+        <div
+          class="text-primary text-2xl font-medium font-poppins cursor-pointer"
+        >
+          Cash Free
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

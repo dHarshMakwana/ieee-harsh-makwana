@@ -1,0 +1,11 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tabler:truck-return">
+<g id="Group">
+<path id="Vector" d="M29.1667 79.1667C33.7691 79.1667 37.5 75.4357 37.5 70.8333C37.5 66.231 33.7691 62.5 29.1667 62.5C24.5643 62.5 20.8334 66.231 20.8334 70.8333C20.8334 75.4357 24.5643 79.1667 29.1667 79.1667Z" stroke="#56CCF2" stroke-width="8.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M70.8333 79.1667C75.4357 79.1667 79.1667 75.4357 79.1667 70.8333C79.1667 66.231 75.4357 62.5 70.8333 62.5C66.231 62.5 62.5 66.231 62.5 70.8333C62.5 75.4357 66.231 79.1667 70.8333 79.1667Z" stroke="#56CCF2" stroke-width="8.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M41.6667 37.5L33.3333 45.8333M20.8333 70.8333H12.5V25C12.5 23.8949 12.939 22.8351 13.7204 22.0537C14.5018 21.2723 15.5616 20.8333 16.6667 20.8333H54.1667V45.8333H33.3333L41.6667 54.1666L20.8333 70.8333Z" stroke="#56CCF2" stroke-width="8.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M37.5 70.8333H62.5" stroke="#56CCF2" stroke-width="8.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M54.1666 25H75L87.5 45.8333V70.8333H79.1666" stroke="#56CCF2" stroke-width="8.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
